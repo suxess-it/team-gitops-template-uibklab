@@ -1,6 +1,6 @@
 teamName: team1
 appName: demo-app1
-repoUrl: https://github.com/suxess-it/sx-cnp-oss-demo-app
+repoUrl: https://github.com/suxess-it/team1-demo-app1
 createAppNamespace: true
 stages:
   - name: "test"
