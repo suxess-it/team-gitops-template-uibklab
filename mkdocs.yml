@@ -1,0 +1,10 @@
+site_name: sx-cnp-oss-demo-apps
+site_description: 'User documentation for sX cnp oss Demo App' 
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+nav:
+  - Overview: index.md

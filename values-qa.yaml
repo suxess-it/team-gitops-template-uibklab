@@ -1,0 +1,7 @@
+# applies to podtato-head-entry deployment only
+ingress:
+  hosts:
+    - host: qa-demo-app-127-0-0-1.nip.io
+      paths:
+        - path: /
+          pathType: ImplementationSpecific

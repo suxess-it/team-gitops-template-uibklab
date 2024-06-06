@@ -1,0 +1,16 @@
+teamName: team1
+appName: demo-app1
+repoUrl: https://github.com/suxess-it/sx-cnp-oss-demo-app
+createAppNamespace: true
+stages:
+  - name: "test"
+    subscriptions: 
+      warehouse: "warehouse-{{ .Values.appName }}"
+  - name: "qa"
+    subscriptions: 
+      upstreamStages:
+      - name: test
+  - name: "prod"
+    subscriptions: 
+      upstreamStages:
+      - name: qa
