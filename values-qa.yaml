@@ -1,5 +1,6 @@
 # applies to podtato-head-entry deployment only
 ingress:
+  className: nginx
   hosts:
     - host: qa-demo-app-127-0-0-1.nip.io
       paths:
