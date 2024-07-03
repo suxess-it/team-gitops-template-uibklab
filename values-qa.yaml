@@ -2,7 +2,7 @@
 ingress:
   className: nginx
   hosts:
-    - host: qa-demo-app-127-0-0-1.nip.io
+    - host: team1-demo-app1-qa.lab.suxessit.k8s.cloud.uibk.ac.at
       paths:
         - path: /
           pathType: ImplementationSpecific
