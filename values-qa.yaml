@@ -1,6 +1,10 @@
 # applies to podtato-head-entry deployment only
 ingress:
   className: nginx
+  annotations:
+    dns.gardener.cloud/class: garden
+    dns.gardener.cloud/dnsnames: team1-demo-app1-qa.lab.suxessit.k8s.cloud.uibk.ac.at
+    dns.gardener.cloud/ttl: "180"
   hosts:
     - host: team1-demo-app1-qa.lab.suxessit.k8s.cloud.uibk.ac.at
       paths:
